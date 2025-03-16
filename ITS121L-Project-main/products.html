@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MORE REAL GOODS</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .card-img-top {
+                height: 200px;
+                object-fit: cover;
+            }
+            .card {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+            .card-body {
+                flex-grow: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            .card-img-top {
+                height: 200px;
+                object-fit: cover;
+            }
+            .card {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+            .card-body {
+                flex-grow: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            h5 {
+                color: #28a745;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+
+        <body class="products-body">
+
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <a class="navbar-brand text-white"><h1 style="font-size: 50px; position: absolute; font-weight: bold; color: #dddddd;">MRG</h1> <br><br><br> MORE REAL GOODS</a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="homepage.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about_us.html">About Us</a></li>
+                <li class="nav-item active"><a class="nav-link" href="products.html">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                <li class="nav-item "><a class="nav-link" href="faq.html" >FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact_us.html">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="news_blog.html">News & Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- PRODUCT SECTION -->
+    <div class="container mt-5 products">
+        <h1 class="text-center" style="color: #28a745;"">PRODUCTS</h1>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/skinless_green_mongo.png" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Skinless Green Mongo</h5>
+                        <p class="card-text">IT Carries good amounts of B-complex vitamins, especially folates, thiamin, pyridoxine, pantothenic acid, riboflavin and niacin, Furthermore, are also incredible sources several essential minerals, as such the 100 grams holds copper=104.5%, iron=84%, manganese=45%, phosphorus=52%, selenium=15%, calcium=13%, and zinc=24%.</p>
+                        <p class="price text-success font-weight-bold">₱180/KG</p>
+                        <button class="btn btn-success" onclick="buyProduct('Product 1')">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/white_mongo.png" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Sesame Seeds</h5>
+                        <p class="card-text">Boost your Immunity with Sesame seeds that are of a good source of several nutrients that are significant for immune system function, including zinc, selenium, copper, iron, vitamin B6, and vitamin E.</p>
+                        <p class="price text-success font-weight-bold">₱350/KG
+                        </p>
+                        <button class="btn btn-success" onclick="buyProduct('Product 2')">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/roasted_coffee_beans.png" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Coffee Beans</h5>
+                        <p class="card-text">Roasted Arabica and Robusta coffee beans are available in light, medium, and dark roasts, each offering unique flavors and aromas. Light roast preserves the beans’ natural acidity and fruity notes, medium roast balances acidity and body with a smooth, rich taste, while dark roast has bold, smoky flavors with lower acidity. Arabica beans provide a smoother, sweeter profile, while Robusta beans offer a stronger, more robust flavor with higher caffeine content.</p>
+                        <p class="price text-success font-weight-bold">₱800/KG</p>
+                        <button class="btn btn-success" onclick="buyProduct('Product 3')">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/fresh_shrimp_catchlings_with_salt.png" class="card-img-top" alt="Product 4">
+                    <div class="card-body">
+                        <h5 class="card-title">NEWLY HARVEST
+                            FRESH SHRIMP CATCHLINGS </h5>
+                        <p class="card-text">Newly harvested fresh shrimp catchlings play a vital role in aquaculture, growing into nutrient-rich seafood. Shrimp are an excellent source of high-quality protein, omega-3 fatty acids, vitamin B12, vitamin D, selenium, iodine, and zinc, which support muscle growth, brain function, immune health, and metabolism.</p>
+                        <p class="price text-success font-weight-bold">₱700/KG</p>
+                        <button class="btn btn-success" onclick="buyProduct('Product 4')">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/alamang_10_days.png" class="card-img-top" alt="Product 5">
+                    <div class="card-body">
+                        <h5 class="card-title">10 DAYS OLD ALAMANG</h5>
+                        <p class="card-text">10-day-old alamang (shrimp fry) are young, fast-growing shrimp commonly used in aquaculture or as a key ingredient in fermented shrimp paste (bagoong alamang). They are rich in protein, omega-3 fatty acids, calcium, and essential minerals like iodine and zinc, which support muscle growth, brain function, and overall health.</p>
+                        <p class="price text-success font-weight-bold">₱500/KG</p>
+                        <button class="btn btn-success" onclick="buyProduct('Product 5')">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/fresh_shrimp_catchlings.png" class="card-img-top" alt="Product 6">
+                    <div class="card-body">
+                        <h5 class="card-title">FRESH SHRIMP CATCHLINGS
+                            WITH SALT</h5>
+                        <p class="card-text">Fresh shrimp catchlings with salt are young shrimp preserved or prepared with salt to enhance flavor and extend freshness. This combination is rich in protein, omega-3 fatty acids, iodine, and essential minerals, supporting muscle growth, brain function, and overall health. Salt also helps in preservation and enhances the natural taste of the shrimp.</p>
+                        <p class="price text-success font-weight-bold">₱750/KG</p>
+                        <button class="btn btn-success" onclick="buyProduct('Product 6')">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/white_kidney_bean_paste.png" class="card-img-top" alt="Product 7">
+                    <div class="card-body">
+                        <h5 class="card-title">White Kidney Bean Paste</h5>
+                        <p class="card-text">White kidney bean paste is a smooth, creamy spread made from cooked and mashed white kidney beans. It is rich in plant-based protein, fiber, vitamins, and minerals like iron and magnesium, supporting digestion, heart health, and energy production. Its mild flavor makes it a versatile ingredient for both sweet and savory dishes.</p>
+                        <p class="price text-success font-weight-bold">₱300/KG</p>
+                        <button class="btn btn-success" onclick="buyProduct('Product 7')">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/white_kidney_bean_paste_2.png" class="card-img-top" alt="Product 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Brown Kidney Bean Paste</h5>
+                        <p class="card-text">Brown kidney bean paste is a thick, smooth spread made from cooked and mashed brown kidney beans. It is rich in plant-based protein, fiber, iron, and antioxidants, promoting digestion, heart health, and sustained energy. With its slightly nutty and earthy flavor, it can be used in both sweet and savory dishes.</p>
+                        <p class="price text-success font-weight-bold">₱300/KG</p>
+                        <button class="btn btn-success" onclick="buyProduct('Product 8')">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/white_kidney_bean_paste_3.png" class="card-img-top" alt="Product 9">
+                    <div class="card-body">
+                        <h5 class="card-title">Yellow Kidney Bean Paste</h5>
+                        <p class="card-text">Yellow kidney bean paste is a smooth, creamy spread made from cooked and mashed yellow kidney beans. It is rich in protein, fiber, iron, and essential minerals, supporting digestion, heart health, and energy production. With its mild, slightly sweet flavor, it is a versatile ingredient for both sweet and savory recipes.</p>
+                        <p class="price text-success font-weight-bold">₱300/KG</p>
+                        <button class="btn btn-success" onclick="buyProduct('Product 9')">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-success text-white text-center py-3">
+        <p>&copy; Dalisay, Dela Pena, Felipe, Galimba; All rights reserved.</p>
+    </footer>
+    </body>
+</html>

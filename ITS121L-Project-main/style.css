@@ -1,0 +1,273 @@
+.content, .homepage-content, .quality-safety-content {
+    margin: 7.5%;
+    background-color: white;
+    border: 2px solid #ccc;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.homepage-body {
+    background-image: url("images/marble_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homepage-main-content {
+    text-align: center;
+    margin: 77px;
+    font-size: 75px;
+    color: rgb(0, 169, 78);
+}
+
+.homepage-main-content p {
+    color: black;
+    font-size: medium;
+}
+
+.homepage-main-content a {
+    color: rgba(255, 255, 255, 0.897);
+}
+
+.homepage-main-content a :hover {
+    color: white;
+}
+
+.footer {
+    background-color: rgb(0, 169, 78);
+    color: white;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 14px;
+}
+
+h1, .card-title {
+    color: rgb(0, 169, 78);
+}
+
+.my-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.my-button:hover {
+    background-color: #45a049;
+}
+
+@media screen and (max-width: 1200px) {
+    .homepage-content, .content, .quality-safety-content {
+        margin: 5%;
+    }
+
+    .homepage-main-content {
+        margin: 50px;
+        font-size: 50px;
+    }
+
+    .footer {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .my-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .homepage-content, .content, .quality-safety-content {
+        margin: 2.5%;
+    }
+
+    .homepage-main-content {
+        margin: 20px;
+        font-size: 40px;
+    }
+
+    .footer {
+        padding: 6px;
+        font-size: 10px;
+    }
+
+    .my-button {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .homepage-content, .content, .quality-safety-content {
+        margin: 1%;
+    }
+
+    .homepage-main-content {
+        margin: 10px;
+        font-size: 30px;
+    }
+
+    .footer {
+        padding: 4px;
+        font-size: 8px;
+    }
+
+    .my-button {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+}
+
+.homepage-about,
+.homepage-faq {
+    width: 45%;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.faq-title, .about-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(0, 169, 78);
+    margin-bottom: 15px;
+}
+
+.faq-text {
+    font-size: 1rem;
+    color: #333;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.learn-more-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(0, 169, 78);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.learn-more-button:hover {
+    background-color: rgb(0, 140, 65);
+}
+
+@media screen and (max-width: 992px) {
+    .container.text-center.d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .homepage-about, .homepage-faq {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+
+.services-body{
+    background-image: url("images/marble_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.products-body{
+    background-image: url("images/marble_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.faq-content {
+    margin: 5% auto;
+    padding: 40px 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+}
+
+.faq-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(0, 169, 78);
+    margin-bottom: 20px;
+}
+
+.card {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.card-header {
+    background-color: rgb(0, 169, 78);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.card-header a {
+    color: rgba(255, 255, 255, 0.664);
+    text-decoration: none;
+    display: block;
+}
+
+.card-header a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.learn-more-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(0, 169, 78);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.learn-more-button:hover {
+    background-color: rgb(0, 140, 65);
+}
+
+.products h5 {
+    color: rgb(0, 169, 78);
+}
+
+.faq-body, .gallery-body, .news-body, .contact-us-body {
+    background-image: url("images/marble_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.collapse {
+    display: none; /* Initially hidden */
+}
+
+.collapse.show {
+    display: block; /* Show instantly without animation */
+}
+
+.collapsing {
+    height: auto !important;
+    transition: none !important;
+    display: block !important;
+}
